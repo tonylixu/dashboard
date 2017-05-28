@@ -37,5 +37,7 @@
     <div ng-controller="NavBarCtrl">
       <div ng-if="$route.current.$$route.description" class="alert alert-success" role="alert" btf-markdown="'**Description:** ' + $route.current.$$route.description"></div>
     </div>
+    
+    <div ng-view=""></div>
   </body>
 </html>
